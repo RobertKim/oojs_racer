@@ -48,7 +48,6 @@ Game.prototype.finish = function(){
  // to refactor soon
 }
 
-
 $(document).ready(function() {
   var p = '80';
   var q = '81';
@@ -66,7 +65,6 @@ $(document).ready(function() {
     });
   });
 
-  
   $('#start').on('click', function() {
     $("#start").fadeOut();
     game.startTime = new Date().getTime();
@@ -111,10 +109,4 @@ $(document).ready(function() {
     });
   });
 });
-
-
-
-
-
-
 
